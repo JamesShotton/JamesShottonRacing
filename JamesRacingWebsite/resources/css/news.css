@@ -1,0 +1,89 @@
+html {
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(240, 240, 240);
+}
+
+:root {
+    --website-font: 'Work Sans';
+    --logo-font: 'Playwrite DK Uloopet';
+    --title-font: 'Montserrat';
+    --trial-font: 'Varela Round';
+    --hover-color: rgb(223, 223, 0);
+    --a-color: rgb(242, 255, 0);
+    --background: rgb(247, 247, 247);
+}
+
+
+.button-mobile {
+    display: block;
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(247, 247, 247);
+}
+
+.checkbtn {
+    color: black;   
+    font-size: 1.875rem;
+    float: right;
+    margin: 10px 10px 0px 0px;
+    cursor: pointer;
+}
+#check {
+    visibility: visible;
+}
+
+.logo-mobile {
+    float: left;
+    margin-left: 5px;
+}
+.logo-mobile a {
+    font-family: var(--logo-font);
+    font-size: 2.1rem;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+.logo-mobile a:hover {
+    color: rgb(89, 89, 89);
+    transition: color 50ms ease-in;
+}
+
+.nav-mobile {
+    position: fixed;
+    top: 51px;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(240, 240, 240, 1), rgba(0, 0, 0, 0.8));
+    z-index: 20;
+    transition: all 400ms ease-out;
+    }
+.nav-items-mobile a {
+    display: block;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    font-family: var(--website-font);
+    font-size: 1rem;
+    font-weight: 500;
+    
+    padding: 20px;
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+}
+.nav-items-mobile a:hover {
+    font-weight: 600;
+    transition: font-weight 150ms;
+}
+
+#check:checked ~ .nav-mobile {
+    left: 0px;
+}
