@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./resources/css/about.css">
+    <link rel="stylesheet" href="./resources/css/calendar.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -28,12 +28,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    
+
     <script src="https://kit.fontawesome.com/3d736ff224.js" crossorigin="anonymous"></script>
 
-    <title>About Me - James Shotton Racing</title>
+    <title>Calendar - James Shotton Racing</title>
 </head>
-
 
 
 <body>
@@ -42,13 +41,13 @@
 
     <div class="nav">
         <div class="logo">
-            <a href="./index.html">JS</a>
+            <a href="./html/index.html">JS</a>
         </div>
 
         <div class="nav-items">
-            <a href="./index.html">Home</a>
-            <a id="selected"href="./about.html">About</a>
-            <a href="./calendar.html">Calendar</a>
+            <a href="index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a id="selected" href="./calendar.html">Calendar</a>
             <a href="./gallery.html">Gallery</a>
             <a href="./contact.html">Contact</a>
         </div>
@@ -64,6 +63,7 @@
         <div class="tiktok-link">
             <a href="https://tiktok.com/jamesshotton74" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
         </div>
+        
     </div>
 
 
@@ -89,58 +89,74 @@
             </div>
         </div>
     </div>
-    
 
-    <!-- About Section-->
 
-    <div class="about">
+    <!-- Main Section -->
 
-        <img id="background" src="./resources/images/IMG_0025.jpg">
 
-        <div class="about-header">
-            <p id="header">About Me</p>
-            <span id="header-info">An overview of my career so far</span>
+    <div class="calendar-background">
+        <img id="background" src="./resources/images/PHOTO-2024-06-28-20-34-39.jpg">
+
+        <div class="calendar-header">
+            <p id="header">Calendar</p>
+            <span id="header-info">View the tracks the Ginetta Junior Championship will be racing at this year</span>
         </div>
-
-        <div class="about-info">
-            <img id="opener"src="./resources/images/399047441_799671025248744_2563818866842044366_n.jpg">
-            <div class="about-text">
-                <div class="about-images">
-                    <p>2024</p>
-                </div>
-                <div class="about-text-text">
-                    <p>James had a late oppurtunity to participate in the 2024 Ginetta Junior Championship, where he will race across
-                        many UK tracks such as Silverstone, Donington Park, Oulton Park and Snetterton. Due to have no pre-season testing
-                        James had little time to adjust to the car before the first round, however he has learned quickly and by the second
-                        round already scored two 4th place finishes across the weekend.</p>
-                </div>
+        
+       
+        <div class="calendar">
+            <div class="calendar-item">
+                <img src="https://msvstatic.blob.core.windows.net/high-res/e52fe82f-b0d8-4fda-b34e-795a287c162a.jpg">
+                <p>Oulton Park International</p>
+                <span>28 March - 01 April </span>
             </div>
-            <div class="about-text">
-                <div class="about-images">
-                    <p>2023</p>
-                </div>
-                <div class="about-text-text">
-                    <p>James had a late oppurtunity to participate in the 2024 Ginetta Junior Championship, where he will race across
-                        many UK tracks such as Silverstone, Donington Park, Oulton Park and Snetterton. Due to have no pre-season testing
-                        James had little time to adjust to the car before the first round, however he has learned quickly and by the second
-                        round already scored two 4th place finishes across the weekend.</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="about-socials">
+            <div class="calendar-item">
+                <img src="https://i.redd.it/us5o8fzbwgd51.jpg">
+                <p>Silverstone GP</p>
+                <span>25 - 28 April</span>
+            </div>
+
+            <div class="calendar-item">
+                <img src="https://msvstatic.blob.core.windows.net/high-res/2189ef2b-cc4e-4738-8a87-c1dac865f10b.jpg">
+                <p>Donington Park GP</p>
+                <span>23 - 26 May</span>
+            </div>
+
+            <div class="calendar-item">
+                    <img src="https://racecollective.com/wp-content/uploads/job-manager-uploads/job_gallery/2019/04/Anglesey-Circuit-Robert-Thomas-1.jpg">
+                <p>Anglesey - Ginetta G Fest</p>
+                <span>27 - 30 June</span>
+            </div>
+
+            <div class="calendar-item">
+                <img src="https://gb3images.blob.core.windows.net/images/dae20106-3468-4421-9f14-0f139331434b/thumbnail.jpg">
+                <p>Snetterton 300</p>
+                <span>11 - 14 July</span>
+            </div>
+
+            <div class="calendar-item">
+                <img src="https://i.redd.it/us5o8fzbwgd51.jpg">
+                <p>Silverstone National</p>
+                <span>15 - 18 August</span>
+            </div>
+
+            <div class="calendar-item">
+                <img src="https://msvstatic.blob.core.windows.net/high-res/2189ef2b-cc4e-4738-8a87-c1dac865f10b.jpg">
+                <p>Donington Park GP</p>
+                <span>5 - 8 September</span>
+            </div>
+
+            <div class="calendar-item">
+                <img src="https://msvstatic.blob.core.windows.net/images/f193d649-0981-4be0-a964-be3b31e3c88b/thumbnail.jpg">
+                <p>Brands Hatch GP</p>
+                <span>26 - 29 September</span>
+            </div>
+
 
         </div>
     </div>
-        
-
-
-
-
-
-
-
     <!-- Footer Section -->
+
 
     <div class="footer">
         <img src="./resources/images/IMG_0028.jpg">
@@ -174,10 +190,8 @@
             <span>Copyright © 2024 James Shotton <br>| Design & Development by JV Web Design</span>
         </div>
         
-    </div>  
+    </div>
 
-
-
-
+    
 </body>
 </html>

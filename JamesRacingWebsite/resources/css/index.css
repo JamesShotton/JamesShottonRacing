@@ -190,7 +190,7 @@ body {
 
 .news-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
     width: 100vw;
@@ -371,7 +371,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 .footer-links p {
     letter-spacing: 2px;
@@ -405,6 +405,7 @@ body {
     display: inline-flex;
     flex-direction: column;
     min-height: 200px;
+    padding: 0px 20px;
 }
 
 .footer-copyright {
@@ -418,17 +419,17 @@ body {
 }
 
 @media screen and (min-width: 2200px) {
-   .home-info span {
+    .home-info span {
     font-size: 8rem;
-   }
-   .home-info p {
+    }
+    .home-info p {
     font-size: 2rem;
-}
-.home-info a {
-    font-size: 2rem;
-    font-weight: 400;
-    padding: 20px 80px;
-}
+    }
+    .home-info a {
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 20px 80px;
+    }
 }
 
 
@@ -444,18 +445,21 @@ body {
         font-weight: 400;
         padding: 20px 80px;
     }
+    .nav-items a {
+        font-weight: 100;
+    }
 }
 
 @media screen and (min-width: 1600px) {
     .nav-items a {
-        font-size: 2rem;
+        font-size: 1.7rem;
         letter-spacing: 6px;
         font-weight: 400;
     }
     .insta-link, .tiktok-link, .calendar-link {
         transform: scale(1.5);
         
-        margin: auto;
+        margin: 10px auto;
     }
 
 }
@@ -485,7 +489,7 @@ body {
     }
 }
 
-@media screen and (max-width: 605px) {
+@media screen and (max-width: 680px) {
     .logo {
         display: none;
     }
@@ -500,7 +504,7 @@ body {
 
     .footer-links {
         transform: scale(0.7);
-        margin-top: 0px;
+        margin-top: -70px;
     }
 }
 
@@ -525,7 +529,7 @@ body {
 }
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 590px) {
     .nav {
         display: none;
         border-bottom: none;
